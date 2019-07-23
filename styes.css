@@ -1,0 +1,78 @@
+#nav {
+    background-color: dodgerblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+#main {
+    font-size: 1.5rem;
+}
+#bolded {
+    font-weight: bold;
+}
+#users {
+    color: #262626;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+#userInput {
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 25%;
+    padding: .5rem 1rem;
+    flex-direction: column;
+}
+#userTitle {
+    text-align: left;
+}
+#form input {
+    float: right;
+    width: 60%;
+}
+.userLabel {
+    float: left;
+    width: 20%;
+}
+#selector {
+    background-color: rgb(228, 224, 224);
+    float: right;
+    width: 60%;
+}
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+#clear {
+    background-image: linear-gradient(rgb(228, 224, 224), white);
+
+}
+#save {
+    background-color: dodgerblue;
+}
+#divDivs > div {
+    border: solid 1px black;
+    display: flex;
+    border-radius: 5px;
+    width: calc((100% / 3) - 2rem);
+    margin-bottom: 1rem;
+    padding: .5rem;
+
+}
+#divDivs {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-around;
+    
+}
